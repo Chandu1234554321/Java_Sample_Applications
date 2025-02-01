@@ -1,0 +1,5 @@
+input  ,expected
+10, even
+20,even
+30,  odd
+40,even
