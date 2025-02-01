@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "server.batch.Jdbc.initialize-schema",
+    "type": "java.lang.String",
+    "description": "A description for 'server.batch.Jdbc.initialize-schema'"
+  },
+  {
+    "name": "server.batch.Jdbc.initialize-schema",
+    "type": "java.lang.String",
+    "description": "A description for 'server.batch.Jdbc.initialize-schema'"
+  }
+]}
