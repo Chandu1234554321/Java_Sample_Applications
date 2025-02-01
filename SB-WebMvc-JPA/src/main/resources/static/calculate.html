@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+ 
+ <head>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+ </link>
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	
+	$(document).ready(function(){
+		
+	var num1= $("#number1").val();
+	var num1= $("#number2").val();
+    
+    var sumIT= parseInt(num1)+parseInt(num2);
+
+	$("#calculate").click(function(){
+	$("#result").val(sumIT);
+	});
+});
+	 
+</script>
+
+ </head>
+ 
+  <body>   
+   <table>
+		 <tr>
+			 <th>Number 1: </th><td><input type="text" id="number1" name="number1"></td>
+		 </tr>
+		 <tr>         
+             <th>Number 2: </th><td><input type="text" id="number2"  name="number2"></td>
+         </tr>
+          <tr>
+			  <td> <input type="submit" value="Calculate" id="calculate"  class="btn btn-primary"/> </td>
+			  <td><input type="text" id="result"  name=result th:field="*{result}"></td>
+		</tr>
+		                                        
+	</tab>
+  </body>
+</html>
